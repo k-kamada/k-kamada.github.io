@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: S.S.S - Living Dead Beat
+title: S.S.S. - Living Dead Beat
 email: kamadak0404@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     日記およびメモ
@@ -25,6 +25,7 @@ github_username:  k-kamada
 # Build settings
 markdown: kramdown
 theme: minima
+highlighter: rouge
 plugins:
   - jekyll-feed
 
